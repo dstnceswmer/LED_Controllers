@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "custom_level_shifters")(type "KiCad")(uri "${KIPRJMOD}/custom_level_shifters.kicad_sym")(options "")(descr ""))
+)
