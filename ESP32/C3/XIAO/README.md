@@ -1,0 +1,1 @@
+Controller board to control up to two led stips independently with a rechargeable battery pack and gpio buttons.
