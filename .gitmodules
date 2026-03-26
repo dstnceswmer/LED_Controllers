@@ -1,3 +1,3 @@
 [submodule "personal_kicad_libraries"]
-	path = personal_kicad_libraries
+	path = ESP32/Modules/XIAO/XIAO32_LED/personal_kicad_libraries
 	url = https://github.com/dstnceswmer/KiCad.git

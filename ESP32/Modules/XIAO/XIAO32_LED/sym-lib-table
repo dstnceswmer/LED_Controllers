@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "My_MCU_Espressif")(type "KiCad")(uri "E:/Documents/GIT/LED_Controllers/personal_kicad_libraries/Symbols/micro_controllers/Espressif/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "My_Battery_Management")(type "KiCad")(uri "E:/Documents/GIT/LED_Controllers/personal_kicad_libraries/Symbols/battery_management/battery_management.kicad_sym")(options "")(descr ""))
+)
