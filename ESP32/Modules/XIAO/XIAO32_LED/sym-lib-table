@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "My_MCU_Espressif")(type "KiCad")(uri "${MY_LIBS}symbols/microcontrollers/espressif/Espressif.kicad_sym")(options "")(descr ""))
   (lib (name "My_Battery_Management")(type "KiCad")(uri "${MY_LIBS}Symbols/battery_management.kicad_sym")(options "")(descr ""))
+  (lib (name "My_Converter_DCDC")(type "KiCad")(uri "${MY_LIBS}Symbols/converter_dcdc.kicad_sym")(options "")(descr ""))
 )
