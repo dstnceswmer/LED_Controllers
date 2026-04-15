@@ -422,16 +422,16 @@
       "MCU"
     ],
     [
-      "20512f72-88c2-479e-952c-1ba8a387db9d",
-      "Level Shifter"
-    ],
-    [
-      "00c2a9f3-48c2-46aa-88b4-de5fc390d021",
-      "Connectors"
+      "93724a71-f974-4dc0-946f-2c4733d9777f",
+      "Battery Charger"
     ],
     [
       "78f0993b-5a13-4e04-85b3-6e74a84ad6cd",
       "Power"
+    ],
+    [
+      "5a4f5e08-6997-48d8-b26b-ab713b00c309",
+      "LED Out"
     ]
   ],
   "text_variables": {}
