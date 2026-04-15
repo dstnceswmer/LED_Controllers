@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "af0e258d-1bc8-4d9c-8cec-e5ec8c728296")
+	(uuid "748c7f9f-42e8-4511-a75f-6d12399f9513")
 	(paper "A4")
 	(lib_symbols
 		(symbol "74xx:74AHCT125"
@@ -406,6 +406,374 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small_US"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_US_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_US_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -758,201 +1126,336 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 96.52 114.3)
-		(uuid "49d2e7c3-c55a-4bdb-89b6-73fa3554fccd")
-	)
-	(no_connect
-		(at 96.52 88.9)
-		(uuid "5d6c1f34-ca3f-4f3e-af59-127b5b199f81")
-	)
-	(no_connect
-		(at 81.28 114.3)
-		(uuid "6af1d23a-813c-4c8d-abbc-7fca92d5070a")
-	)
-	(no_connect
-		(at 88.9 95.25)
-		(uuid "6fac94e1-bf88-46be-9438-138555f01ad8")
-	)
-	(no_connect
-		(at 81.28 88.9)
-		(uuid "8cf13e97-2db7-4be2-94d3-1ebb31f4ef23")
-	)
-	(no_connect
-		(at 88.9 120.65)
-		(uuid "a7bd4be6-61aa-49fb-ab72-0b2e6c5dd3c8")
-	)
-	(wire
-		(pts
-			(xy 69.85 139.7) (xy 69.85 132.08)
-		)
+	(rectangle
+		(start 35.56 41.91)
+		(end 104.14 160.02)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11d969c9-6169-4417-898a-8f7539909ab7")
-	)
-	(wire
-		(pts
-			(xy 101.6 139.7) (xy 107.95 139.7)
+		(fill
+			(type none)
 		)
+		(uuid 847e7b3d-3c46-445a-b8a1-7097a9f9940e)
+	)
+	(rectangle
+		(start 146.05 62.23)
+		(end 205.74 127)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
-		(uuid "1d398638-00c0-4a03-8180-3c043072a5bc")
+		(fill
+			(type none)
+		)
+		(uuid fa5b52aa-03b1-4def-9882-3e6c9ed83b6c)
 	)
-	(wire
-		(pts
-			(xy 105.41 63.5) (xy 109.22 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "367fd5ca-654d-426a-9920-e454eb81b3bf")
-	)
-	(wire
-		(pts
-			(xy 107.95 139.7) (xy 107.95 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5599a74b-6326-4518-ac48-a279b16835cf")
-	)
-	(wire
-		(pts
-			(xy 105.41 38.1) (xy 109.22 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "611c2ea2-3950-49cc-a06d-81d88c447876")
-	)
-	(wire
-		(pts
-			(xy 96.52 38.1) (xy 100.33 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93edfcfc-1420-4d06-9db0-6a7c0abe93ce")
-	)
-	(wire
-		(pts
-			(xy 96.52 63.5) (xy 100.33 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dee300c9-7343-4111-afd8-bb81b2c414fd")
-	)
-	(wire
-		(pts
-			(xy 76.2 139.7) (xy 69.85 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed083e09-3534-4452-a631-71cb5fecd2af")
-	)
-	(global_label "LED1_DATA_3V3"
-		(shape input)
-		(at 81.28 63.5 180)
-		(fields_autoplaced yes)
+	(text "Lvl Shifter"
+		(exclude_from_sim no)
+		(at 69.85 48.514 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
 		)
-		(uuid "46162414-9669-4ec7-8f09-ef085c830cac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7806 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "498e4c66-a1ed-4311-9f26-74c9d931c529")
 	)
-	(global_label "LED0_DATA_3V3"
-		(shape input)
-		(at 81.28 38.1 180)
-		(fields_autoplaced yes)
+	(text "Connectors"
+		(exclude_from_sim no)
+		(at 176.53 66.802 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
 		)
-		(uuid "76864e3b-96aa-47fb-89e5-eae050db4d04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7806 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "9320b96c-89f7-4757-b1b0-2159b2c5ac4f")
 	)
-	(global_label "LED1_DATA_5V"
-		(shape input)
-		(at 109.22 63.5 0)
-		(fields_autoplaced yes)
+	(junction
+		(at 193.04 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e457c9a-dc52-431e-93b8-bc5ffe39330d")
+	)
+	(junction
+		(at 193.04 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89befba0-9cc7-4e75-81c5-75f12bf4753d")
+	)
+	(junction
+		(at 193.04 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcc82ed1-23ad-41d8-a187-f6354d393c99")
+	)
+	(junction
+		(at 193.04 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7e3886c-edca-4388-9aff-c012a45f6f27")
+	)
+	(no_connect
+		(at 64.77 134.62)
+		(uuid "82a267f1-0f55-411a-a81b-6df5d29441db")
+	)
+	(no_connect
+		(at 57.15 128.27)
+		(uuid "99052943-1498-4d37-b91b-7bbd736fbddc")
+	)
+	(no_connect
+		(at 72.39 128.27)
+		(uuid "a7b1ad75-1b54-4194-bcc7-54eb9868c5e5")
+	)
+	(no_connect
+		(at 64.77 154.94)
+		(uuid "d64f715a-de99-42c5-b903-e2ad58f6b860")
+	)
+	(no_connect
+		(at 72.39 148.59)
+		(uuid "ea7b4968-9033-4f9e-ba39-83531a6f9449")
+	)
+	(no_connect
+		(at 57.15 148.59)
+		(uuid "fd11af14-b2bd-4baa-8b1f-bbca64137fef")
+	)
+	(wire
+		(pts
+			(xy 193.04 109.22) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047228df-ec5b-484d-b648-0f235bdc414b")
+	)
+	(wire
+		(pts
+			(xy 161.29 83.82) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162789cc-b7dd-480f-85f0-e9140a086bfc")
+	)
+	(wire
+		(pts
+			(xy 81.28 107.95) (xy 85.09 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5e0e5b-9553-4e32-853f-305951d49cc2")
+	)
+	(wire
+		(pts
+			(xy 161.29 86.36) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2786ac7f-5682-4516-b223-733d4783f7e8")
+	)
+	(wire
+		(pts
+			(xy 72.39 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3280c6c8-72b5-49b4-badb-c59e4cd3a37e")
+	)
+	(wire
+		(pts
+			(xy 193.04 82.55) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1cd845-1db4-4cf5-bdf7-887939b74963")
+	)
+	(wire
+		(pts
+			(xy 162.56 115.57) (xy 193.04 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779b085b-2440-465d-b49d-8113495c3198")
+	)
+	(wire
+		(pts
+			(xy 162.56 110.49) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8fbc11-328f-45bd-930d-81ae9194f108")
+	)
+	(wire
+		(pts
+			(xy 76.2 68.58) (xy 76.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b032b7e-d0ae-45bb-9ce7-ad4326d225df")
+	)
+	(wire
+		(pts
+			(xy 72.39 107.95) (xy 76.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afaa43b4-3c22-4e80-b630-cf101ea4d0ff")
+	)
+	(wire
+		(pts
+			(xy 50.8 68.58) (xy 50.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b863bb-52e0-43ce-bb64-e0baee1749ff")
+	)
+	(wire
+		(pts
+			(xy 161.29 88.9) (xy 193.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbac49b6-b5fa-4fdd-a123-8598cc55c362")
+	)
+	(wire
+		(pts
+			(xy 81.28 88.9) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c9983d-4f42-4279-81bf-a74a80021d5e")
+	)
+	(wire
+		(pts
+			(xy 162.56 113.03) (xy 171.45 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ccb084-f4ae-4b8d-84c8-8d611679d64a")
+	)
+	(label "LED0_DATA_5V"
+		(at 85.09 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7c81931-b293-4002-87f3-f6107cb510a8")
+	)
+	(label "LED1_DATA_5V"
+		(at 171.45 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e66c5484-9453-4d64-b1b1-745afcd9a7be")
+	)
+	(label "LED0_DATA_5V"
+		(at 171.45 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e801e5df-6656-43b4-b0da-ab7da6f3e8e6")
+	)
+	(label "LED1_DATA_5V"
+		(at 85.09 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb324cc6-d6e6-45fa-8b50-694952ded8ac")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 193.04 82.55 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b6cfaf48-06cb-4a0c-81ac-86fbe0641a9f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.5099 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "12631b0c-e3df-4e9c-8c25-c4ab63b12131")
 	)
-	(global_label "LED0_DATA_5V"
-		(shape input)
-		(at 109.22 38.1 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "LED0_DATA_3V3"
+		(shape output)
+		(at 57.15 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1710221-911e-4428-acf2-dcb127423c1e")
+	)
+	(hierarchical_label "LED1_DATA_3V3"
+		(shape output)
+		(at 57.15 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1fbf900-ef10-4f73-99f5-5b4d6e2adfdc")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 193.04 109.22 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c570d0d0-1473-4a8b-bca2-574c46295e5e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.5099 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "f3a54b30-3880-4164-b0e2-9841f45e5a80")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 50.8 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "fda5eb41-bcc9-4133-8529-505cb532f379")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 102.87 38.1 90)
+		(at 78.74 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -961,7 +1464,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b4fa163-dce2-43f0-a869-7f1de861c023")
 		(property "Reference" "R10"
-			(at 102.87 33.02 90)
+			(at 78.74 83.82 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -969,7 +1472,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 102.87 35.56 90)
+			(at 78.74 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -977,7 +1480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 38.1 0)
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,7 +1489,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 38.1 0)
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,7 +1498,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 102.87 38.1 0)
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1514,7 @@
 		)
 		(instances
 			(project "XIAO32_LED"
-				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/20512f72-88c2-479e-952c-1ba8a387db9d"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
 					(reference "R10")
 					(unit 1)
 				)
@@ -1019,26 +1522,25 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 69.85 132.08 0)
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 193.04 113.03 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f6a87af-8a1c-45e8-9877-6f8a1e841da7")
-		(property "Reference" "#PWR016"
-			(at 69.85 135.89 0)
+		(uuid "4b8d9ad6-4b49-4ee1-aef4-162629072756")
+		(property "Reference" "C2"
+			(at 196.088 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 69.85 127 0)
+		(property "Value" "470uF"
+			(at 198.374 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1548,76 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 132.08 0)
+			(at 193.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 193.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a63bfce4-4293-4260-b243-a5ee553df093")
+		)
+		(pin "1"
+			(uuid "a0132035-8293-4422-8372-0be176c15623")
+		)
+		(instances
+			(project "XIAO32_LED"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bd7ba39-62ae-4376-a780-af03de5d5c36")
+		(property "Reference" "#PWR017"
+			(at 193.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 132.08 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,8 +1634,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 132.08 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1073,12 +1644,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d142b39-e8e4-4053-9a9c-e5ab641ea5b8")
+			(uuid "13dfa5bd-f5e6-48ad-a905-bd773a7f5543")
 		)
 		(instances
-			(project ""
-				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/20512f72-88c2-479e-952c-1ba8a387db9d"
-					(reference "#PWR016")
+			(project "XIAO32_LED"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1086,7 +1657,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 88.9 69.85 270)
+		(at 64.77 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1095,7 +1666,7 @@
 		(fields_autoplaced yes)
 		(uuid "70e19902-e495-439e-9591-76d3acbd0397")
 		(property "Reference" "#PWR014"
-			(at 85.09 69.85 0)
+			(at 60.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,7 +1675,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 92.71 69.8499 90)
+			(at 68.58 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 69.85 0)
+			(at 64.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +1693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 69.85 0)
+			(at 64.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +1702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 69.85 0)
+			(at 64.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1715,7 @@
 		)
 		(instances
 			(project "XIAO32_LED"
-				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/20512f72-88c2-479e-952c-1ba8a387db9d"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -1153,7 +1724,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74AHCT125")
-		(at 88.9 139.7 90)
+		(at 63.5 68.58 90)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1162,7 +1733,7 @@
 		(fields_autoplaced yes)
 		(uuid "72b5c103-b2b9-4f6b-992e-c43e2b299299")
 		(property "Reference" "U3"
-			(at 88.9 129.54 90)
+			(at 63.5 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +1741,7 @@
 			)
 		)
 		(property "Value" "74AHCT125"
-			(at 88.9 132.08 90)
+			(at 63.5 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 139.7 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,7 +1758,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 88.9 139.7 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1767,7 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 88.9 139.7 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1819,7 @@
 		)
 		(instances
 			(project "XIAO32_LED"
-				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/20512f72-88c2-479e-952c-1ba8a387db9d"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
 					(reference "U3")
 					(unit 5)
 				)
@@ -1257,7 +1828,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 102.87 63.5 270)
+		(at 78.74 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1266,7 +1837,7 @@
 		(fields_autoplaced yes)
 		(uuid "74977fe7-03df-4f36-9109-80e204482c9e")
 		(property "Reference" "R9"
-			(at 102.87 58.42 90)
+			(at 78.74 102.87 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1274,7 +1845,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 102.87 60.96 90)
+			(at 78.74 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 63.5 0)
+			(at 78.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 63.5 0)
+			(at 78.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1871,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 102.87 63.5 0)
+			(at 78.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1887,7 @@
 		)
 		(instances
 			(project "XIAO32_LED"
-				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/20512f72-88c2-479e-952c-1ba8a387db9d"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
 					(reference "R9")
 					(unit 1)
 				)
@@ -1325,7 +1896,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 88.9 44.45 270)
+		(at 64.77 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1334,7 +1905,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ed19b44-c43f-43b5-a2fa-65f4ed49c3b6")
 		(property "Reference" "#PWR013"
-			(at 85.09 44.45 0)
+			(at 60.96 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1914,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 92.71 44.4499 90)
+			(at 68.58 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 44.45 0)
+			(at 64.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 44.45 0)
+			(at 64.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 44.45 0)
+			(at 64.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,8 +1953,8 @@
 			(uuid "d71e1e71-4c09-48fc-8cee-02a033ad2f3c")
 		)
 		(instances
-			(project ""
-				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/20512f72-88c2-479e-952c-1ba8a387db9d"
+			(project "XIAO32_LED"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -1392,7 +1963,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74AHCT125")
-		(at 88.9 38.1 0)
+		(at 64.77 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1401,7 +1972,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aee9d69-be48-4105-ae72-dc1053fe7635")
 		(property "Reference" "U3"
-			(at 88.9 29.21 0)
+			(at 64.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1980,7 @@
 			)
 		)
 		(property "Value" "74AHCT125"
-			(at 88.9 31.75 0)
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 38.1 0)
+			(at 64.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1997,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 88.9 38.1 0)
+			(at 64.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +2006,7 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 88.9 38.1 0)
+			(at 64.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +2058,7 @@
 		)
 		(instances
 			(project "XIAO32_LED"
-				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/20512f72-88c2-479e-952c-1ba8a387db9d"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
 					(reference "U3")
 					(unit 1)
 				)
@@ -1496,7 +2067,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74AHCT125")
-		(at 88.9 63.5 0)
+		(at 64.77 107.95 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1505,7 +2076,7 @@
 		(fields_autoplaced yes)
 		(uuid "941261a4-ab61-4ba4-9871-66afa82adc18")
 		(property "Reference" "U3"
-			(at 88.9 54.61 0)
+			(at 64.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +2084,7 @@
 			)
 		)
 		(property "Value" "74AHCT125"
-			(at 88.9 57.15 0)
+			(at 64.77 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +2092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 63.5 0)
+			(at 64.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +2101,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 88.9 63.5 0)
+			(at 64.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +2110,7 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 88.9 63.5 0)
+			(at 64.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +2162,7 @@
 		)
 		(instances
 			(project "XIAO32_LED"
-				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/20512f72-88c2-479e-952c-1ba8a387db9d"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
 					(reference "U3")
 					(unit 2)
 				)
@@ -1600,7 +2171,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74AHCT125")
-		(at 88.9 88.9 0)
+		(at 64.77 128.27 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1609,7 +2180,7 @@
 		(fields_autoplaced yes)
 		(uuid "9736b470-fac2-4dff-af7f-8fb0009d1f45")
 		(property "Reference" "U3"
-			(at 88.9 80.01 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +2188,7 @@
 			)
 		)
 		(property "Value" "74AHCT125"
-			(at 88.9 82.55 0)
+			(at 64.77 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +2196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 88.9 0)
+			(at 64.77 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +2205,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 88.9 88.9 0)
+			(at 64.77 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +2214,7 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 88.9 88.9 0)
+			(at 64.77 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +2266,7 @@
 		)
 		(instances
 			(project "XIAO32_LED"
-				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/20512f72-88c2-479e-952c-1ba8a387db9d"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
 					(reference "U3")
 					(unit 3)
 				)
@@ -1704,7 +2275,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 144.78 0)
+		(at 76.2 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1713,7 +2284,7 @@
 		(fields_autoplaced yes)
 		(uuid "a731b959-8cdf-49e6-a1a7-1b35582e8b54")
 		(property "Reference" "#PWR015"
-			(at 107.95 151.13 0)
+			(at 76.2 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +2293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 149.86 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +2301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 144.78 0)
+			(at 76.2 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +2310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 144.78 0)
+			(at 76.2 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +2319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 144.78 0)
+			(at 76.2 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,8 +2331,8 @@
 			(uuid "8924f9b7-8902-42f1-8a22-b97cbbffbbbf")
 		)
 		(instances
-			(project ""
-				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/20512f72-88c2-479e-952c-1ba8a387db9d"
+			(project "XIAO32_LED"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -1769,8 +2340,284 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 193.04 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0a8f040-e46f-4ca1-9e2a-c79925869eaa")
+		(property "Reference" "C1"
+			(at 195.58 84.6581 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 195.58 87.1981 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 193.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3dbf5dbd-9532-48f8-bf61-e47c658b01e5")
+		)
+		(pin "1"
+			(uuid "f800fe1a-1120-47bf-ac5f-acc939a310c9")
+		)
+		(instances
+			(project "XIAO32_LED"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 157.48 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6c134b4-0240-49dc-be13-be6643ecbbd7")
+		(property "Reference" "J2"
+			(at 158.115 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED1"
+			(at 151.892 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "500f6d24-0602-44e8-b0ce-9431e97d0e1b")
+		)
+		(pin "1"
+			(uuid "10d1c988-a2be-446a-a1ab-c9e4b81a0bf2")
+		)
+		(pin "3"
+			(uuid "a380654c-7889-4f98-8cbe-e6143ecbec51")
+		)
+		(instances
+			(project "XIAO32_LED"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 156.21 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce36adc0-247f-4475-810e-88a5af5c90f3")
+		(property "Reference" "J1"
+			(at 156.845 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED0"
+			(at 151.892 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "247c3307-4489-40e1-8092-d268814807aa")
+		)
+		(pin "1"
+			(uuid "be6d1182-5a95-4c49-99e5-e26ff19131fb")
+		)
+		(pin "3"
+			(uuid "f8696dea-b068-4fd9-982c-e8c3b5ad2ee2")
+		)
+		(instances
+			(project "XIAO32_LED"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9077734-a4fb-4612-a109-e515630feb67")
+		(property "Reference" "#PWR01"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d199d533-471f-4bf6-a109-f9e345d8199a")
+		)
+		(instances
+			(project "XIAO32_LED"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74AHCT125")
-		(at 88.9 114.3 0)
+		(at 64.77 148.59 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1779,7 +2626,7 @@
 		(fields_autoplaced yes)
 		(uuid "f61cd423-948d-4b9f-b0b7-450c6f0a6783")
 		(property "Reference" "U3"
-			(at 88.9 105.41 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +2634,7 @@
 			)
 		)
 		(property "Value" "74AHCT125"
-			(at 88.9 107.95 0)
+			(at 64.77 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +2642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 114.3 0)
+			(at 64.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +2651,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 88.9 114.3 0)
+			(at 64.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +2660,7 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 88.9 114.3 0)
+			(at 64.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +2712,7 @@
 		)
 		(instances
 			(project "XIAO32_LED"
-				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/20512f72-88c2-479e-952c-1ba8a387db9d"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755/5a4f5e08-6997-48d8-b26b-ab713b00c309"
 					(reference "U3")
 					(unit 4)
 				)

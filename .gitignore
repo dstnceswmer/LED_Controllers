@@ -1,0 +1,11 @@
+# Ignore Backups
+*-backups/
+*-bak
+*.bak
+
+# Ignore Autosaves
+_autosave*
+*auto_saved_files*
+
+# Ignore lock files
+*.lck

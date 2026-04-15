@@ -8,52 +8,821 @@
 		(title "XIAO32_LED-1")
 		(rev "A")
 	)
-	(lib_symbols)
-	(sheet
-		(at 248.92 116.84)
-		(size 13.97 17.78)
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT_312"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_312"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_312_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_312_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 100.33 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee2506a0-1b1f-46b6-b2b6-176c6fbd2d30")
+	)
+	(wire
+		(pts
+			(xy 187.96 93.98) (xy 220.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05512ff9-5036-4d74-b5c8-5f949673a6b0")
+	)
+	(wire
+		(pts
+			(xy 195.58 106.68) (xy 195.58 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4e1514-3114-4d8e-b1f5-699d826c3edf")
+	)
+	(wire
+		(pts
+			(xy 100.33 130.81) (xy 132.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268880d8-30af-4023-948c-e542371340d4")
+	)
+	(wire
+		(pts
+			(xy 187.96 63.5) (xy 220.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29df68d0-7d53-4fce-bb37-4ff5a037d5cf")
+	)
+	(wire
+		(pts
+			(xy 100.33 63.5) (xy 100.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2bfc45-1d7c-4051-944d-d72c0555bcfe")
+	)
+	(wire
+		(pts
+			(xy 67.31 90.17) (xy 100.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4290e067-42e9-4809-9bbf-9ebd374b5e0a")
+	)
+	(wire
+		(pts
+			(xy 100.33 95.25) (xy 100.33 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5615dcad-2f6b-445c-9939-4ee96611316c")
+	)
+	(wire
+		(pts
+			(xy 187.96 97.79) (xy 220.98 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce7731f-b09b-4b1b-8ea2-ac4022d842f9")
+	)
+	(wire
+		(pts
+			(xy 100.33 90.17) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a910a6ec-5794-4d2a-a874-1f6656993aed")
+	)
+	(wire
+		(pts
+			(xy 44.45 92.71) (xy 57.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50d567c-0306-48ca-b7d3-a72814f8208e")
+	)
+	(wire
+		(pts
+			(xy 67.31 95.25) (xy 100.33 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c63677-250f-4ec0-927d-0a5255d90dc6")
+	)
+	(wire
+		(pts
+			(xy 187.96 106.68) (xy 195.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db41a272-87da-430d-8266-77d9f38f87f4")
+	)
+	(wire
+		(pts
+			(xy 132.08 63.5) (xy 100.33 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac0b486-4c03-4bb3-8c65-560ac2b7d9cc")
+	)
+	(wire
+		(pts
+			(xy 195.58 130.81) (xy 187.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87c8361-fd02-46a3-a25f-735f650d9def")
+	)
+	(label "Charging"
+		(at 81.28 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b59994e5-1159-4037-a5b8-9968c9414c20")
+	)
+	(label "Power_On"
+		(at 81.28 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8d683ac-1b5c-4d76-9f57-77791e8144da")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 95.25 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00c2a9f3-48c2-46aa-88b4-de5fc390d021")
-		(property "Sheetname" "Connectors"
-			(at 248.92 116.1284 0)
+		(uuid "1aa3bf95-7a53-4553-b6ae-e238e104462a")
+		(property "Reference" "#PWR02"
+			(at 44.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Sheetfile" "connectors.kicad_sch"
-			(at 248.92 135.2046 0)
+		(property "Value" "GND"
+			(at 44.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
+		)
+		(property "Footprint" ""
+			(at 44.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10b365cc-9134-463d-8419-69cfdfa08b72")
 		)
 		(instances
 			(project "XIAO32_LED"
 				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755"
-					(page "5")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT_312")
+		(at 62.23 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "927832c0-3218-4a1d-97f1-c6708b74804a")
+		(property "Reference" "SW1"
+			(at 62.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_312"
+			(at 62.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 62.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8176e599-693e-433b-8153-1116393334d8")
+		)
+		(pin "2"
+			(uuid "d4f07b8c-4c5c-4eff-ab07-75dfd853722b")
+		)
+		(pin "3"
+			(uuid "911d8ef8-3787-4b3d-9b57-69607b29929f")
+		)
+		(instances
+			(project "XIAO32_LED"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 39.37 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6f53ce7-0ea4-4a26-9fab-56995ed60b7e")
+		(property "Reference" "J4"
+			(at 31.242 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 30.734 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b10f04cc-2849-4226-8ee6-22a3a7e90a6d")
+		)
+		(pin "2"
+			(uuid "bcb8b2f0-4970-427f-a4c7-39e32b804a56")
+		)
+		(instances
+			(project "XIAO32_LED"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755"
+					(reference "J4")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 106.68 24.13)
-		(size 38.1 24.13)
+		(at 132.08 22.86)
+		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +837,7 @@
 		)
 		(uuid "119d18c6-ea27-4bf4-ab93-21fa745ba9ab")
 		(property "Sheetname" "Mechanical"
-			(at 106.68 23.4184 0)
+			(at 132.08 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +846,7 @@
 			)
 		)
 		(property "Sheetfile" "mechanical.kicad_sch"
-			(at 106.68 48.8446 0)
+			(at 132.08 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,8 +863,8 @@
 		)
 	)
 	(sheet
-		(at 238.76 35.56)
-		(size 29.21 22.86)
+		(at 132.08 80.01)
+		(size 55.88 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -110,7 +879,7 @@
 		)
 		(uuid "17c722a6-8e83-4bcc-9b56-b86fa8eec5a6")
 		(property "Sheetname" "MCU"
-			(at 238.76 34.8484 0)
+			(at 132.08 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,12 +888,52 @@
 			)
 		)
 		(property "Sheetfile" "XIAO_ESP32C3.kicad_sch"
-			(at 238.76 59.0046 0)
+			(at 132.08 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+5V_USB" output
+			(at 187.96 106.68 0)
+			(uuid "97efc1d2-4c6b-4df7-a3cb-27fe430b36fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED0_DATA_3V3" output
+			(at 187.96 93.98 0)
+			(uuid "5586052a-3665-4854-9110-f9a3be20612c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED1_DATA_3V3" output
+			(at 187.96 97.79 0)
+			(uuid "fcb0912a-0e65-40b4-920f-9302d5d7ee10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBATT_ON" input
+			(at 132.08 90.17 180)
+			(uuid "1dda860a-0920-4574-abda-c09e9ddf8fd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -136,8 +945,8 @@
 		)
 	)
 	(sheet
-		(at 247.65 76.2)
-		(size 12.7 24.13)
+		(at 220.98 55.88)
+		(size 29.21 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -150,9 +959,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "20512f72-88c2-479e-952c-1ba8a387db9d")
-		(property "Sheetname" "Level Shifter"
-			(at 247.65 75.4884 0)
+		(uuid "5a4f5e08-6997-48d8-b26b-ab713b00c309")
+		(property "Sheetname" "LED Out"
+			(at 220.98 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,8 +969,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "level_shifter.kicad_sch"
-			(at 247.65 100.9146 0)
+		(property "Sheetfile" "led_out.kicad_sch"
+			(at 220.98 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,17 +978,47 @@
 				(justify left top)
 			)
 		)
+		(pin "+5V" input
+			(at 220.98 63.5 180)
+			(uuid "ac98182e-3742-4ea5-9d2b-6a778d55cec7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED0_DATA_3V3" input
+			(at 220.98 93.98 180)
+			(uuid "beb71da3-6c78-4dd8-a350-531784d257ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED1_DATA_3V3" input
+			(at 220.98 97.79 180)
+			(uuid "c4fc654c-9d31-44f2-8241-c223a24270c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "XIAO32_LED"
 				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755"
-					(page "4")
+					(page "6")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 200.66 95.25)
-		(size 12.7 26.67)
+		(at 132.08 57.15)
+		(size 55.88 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -194,7 +1033,7 @@
 		)
 		(uuid "78f0993b-5a13-4e04-85b3-6e74a84ad6cd")
 		(property "Sheetname" "Power"
-			(at 200.66 94.5384 0)
+			(at 132.08 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +1042,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 200.66 122.5046 0)
+			(at 132.08 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,10 +1050,92 @@
 				(justify left top)
 			)
 		)
+		(pin "+5V" output
+			(at 187.96 63.5 0)
+			(uuid "bea056b1-8d9e-492f-b00b-acd82d5986b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBATT_ON" input
+			(at 132.08 63.5 180)
+			(uuid "9223ec79-ff64-4b9d-ae13-72e94447e214")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "XIAO32_LED"
 				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755"
-					(page "6")
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 123.19)
+		(size 55.88 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93724a71-f974-4dc0-946f-2c4733d9777f")
+		(property "Sheetname" "Battery Charger"
+			(at 132.08 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_charger.kicad_sch"
+			(at 132.08 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_USB" input
+			(at 187.96 130.81 0)
+			(uuid "9c5bb630-21dc-4832-9384-0823562d1695")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBATT_CHG" output
+			(at 132.08 130.81 180)
+			(uuid "21d1b2ae-9139-49ac-a72b-21d4914d1165")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "XIAO32_LED"
+				(path "/68368358-b5ad-4b4d-9ad1-c8762dcf4755"
+					(page "4")
 				)
 			)
 		)
